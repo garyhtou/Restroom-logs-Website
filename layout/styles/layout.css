@@ -35,10 +35,9 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{padding:3px 0 0 0;}
+#header{padding:15px 0 0 0;}
 
 #header #logo{margin-top:;}
-#header #logo{margin-bottom:3px;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
 
 
@@ -138,7 +137,7 @@ File: Layout CSS
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:80px 0 50px;}
-#footer.topspace-0{padding-top:5;}
+#footer.topspace-0{padding-top:0;}
 
 #footer .title{margin:0 0 30px 0; padding:0 0 8px 0; border-bottom:1px solid; font-size:1.2rem;}
 
@@ -176,15 +175,15 @@ File: Layout CSS
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:30px; line-height:10px;}
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"FontAwesome"; font-size:10px; line-height:10px;}
 
 /* Top Navigation */
 #mainav{}
 #mainav ul.clear{margin-top:3px;}
 #mainav ul{text-transform:uppercase;}
 #mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none;}
-#mainav ul ul ul{left:180px; top:25px;}
-#mainav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:35px 250px;}
+#mainav ul ul ul{left:180px; top:0;}
+#mainav li{display:inline-block; position:relative; margin:0 15px 0 0; padding:0;}
 #mainav li:last-child{margin-right:0;}
 #mainav li li{width:100%; margin:0;}
 #mainav li a{display:block; padding:0 0 32px 0;}
