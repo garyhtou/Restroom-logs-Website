@@ -120,6 +120,7 @@ File: Layout CSS
 
 #quicklinks ul{margin:0; padding:0;}
 #quicklinks li{margin-bottom:10px;}
+#quicklinks li.bold{font-weight: bold;}
 
 
 /* Featured
