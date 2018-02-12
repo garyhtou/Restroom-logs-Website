@@ -24,6 +24,7 @@
    <nav id="mainav" class="fl_right">
       <ul class="clear">
         <li><a href="../index.html">Home</a></li>
+		<li><a href="#">Download</a></li>
 		<liclass="active"><a href="index.html">Documentation</a></li>
         <li><a href="#">Contact</a></li>
         <!--<li><a class="drop" href="#">Pages</a>
@@ -65,13 +66,20 @@
 <div class="wrapper row1">
   <div id="quicklinks" class="hoc clear">
     <div class="accordion">
-      <a href="javascript:void(0);" class="accordiontoggle heading">Quick Links</a>
+        <a href="javascript:void(0);" class="accordiontoggle heading">Quick Links</a>
       <div class="linkblock group">
         <div class="one_half first">
           <ul>
-            <li><a href="#">Setting Up</a></li>
-            <li><a href="#">Academic Assistance</a></li>
-            <li><a href="#">Academic Calendars</a></li>
+            <li class="bold"><a href="#">Getting Started</a></li>
+            <ul>
+				<li style=" list-style-position: inside;">
+				<a href="#studentdb">Creating Students' Access Database</a></li>
+				<li style=" list-style-position: inside;">
+				<a href="#download">Downloading Restroom Logs</a></li>
+				<li style=" list-style-position: inside;">
+				<a href="#initialuse">Using Initial Setup</a></li>
+			</ul>
+         <!--    <li><a href="#">Academic Calendars</a></li>
             <li><a href="#">Academics Office</a></li>
             <li><a href="#">Administration</a></li>
             <li><a href="#">Adult Learners</a></li>
@@ -83,7 +91,7 @@
             <li><a href="#">Campus Safety &amp; Security</a></li>
           </ul>
         </div>
-       <!-- <div class="one_quarter">
+       <div class="one_quarter">
           <ul>
             <li><a href="#">Class Schedules</a></li>
             <li><a href="#">Counselling Center</a></li>
@@ -98,7 +106,7 @@
             <li><a href="#">Graduate</a></li>
             <li><a href="#">Graduate Admissions</a></li>
           </ul>
-        </div>-->
+        </div>
         <div class="one_half">
           <ul>
             <li><a href="#">Graduate Health Services</a>
@@ -121,7 +129,7 @@
             <li><a href="#">Maps and Directions</a></li>
 
           </ul>
-        </div>
+        </div>-->
         <!--<div class="one_quarter">
           <ul>
             <li><a href="#">Office of the Registrar</a></li>
@@ -149,8 +157,52 @@
 
     <div class="content">
 
+	  <h1 id="getstart"><b>Getting Started</b></h1>
+	  <p>There are multiple steps to take before you begin using Restroom logs. Please read them over carefully to properly set-up and use Restroom Logs.</p>
+	  <h1> </h1>
+	  <h1 id="studentdb">Creating Students' Access Database</h1>
+	  	 <p>For Restroom Logs to properly work, you <b>must</b> use the proper format. The proper format is shown below for you to copy or you can download a template <a href="../logs/StudentDatabase.accdb" title="Free Website Templates">here.</a>
+		  </p><p><i>Note: Your table name can be anything you want. In our template, it is named "Students".</i></p>
+		<div class="scrollable">
+        <table>
+          <thead>
+            <tr>
+              <th>ID(Default)<sup>1</sup></th>
+              <th>StudentID</th>
+              <th>FirstName</th>
+              <th>LastName</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>01234</td>
+			  <td>Gary</td>
+			  <td>Tou</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>56789</td>
+              <td>Michael</td>
+              <td>Schwamborn</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+	  <h1> </h1><!--Spacer alt+255-->
+	  <h1 id="download">Downloading Restoom Logs</h1>
+	  <p>There are 2 ways to download the latest version of Restroom Logs.</p>
+	  <li style="margin-left:105px;">Restroom Logs <a href="../download">Download Page</a></li>
+	  <li style="margin-left:105px;">Restroom Logs Github <a href="https://github.com/garytou2/Restroom-Logs/releases">Release Page</a><sup>2</sup></li>
+	  <p>When the Restroom Logs download finished, you will be left with a .zip folder. Please export it wherever you wish to have the program ran.
+	  <h1> </h1>
+	  <h1 id="initialuse">Using Inital Setup</h1>
+	  <p>When opening the Restroom Logs folder, you will be shown a file named <i>"Inital Setup.jar"</i> please run this to begin the Inital Setup Proccess.</p>
+	  <p><i>Note: It is <b>very</b> important that you <b> do not</b> open, touch, or modify with any other files in the folder, otherwise the program may not run as it is supposed to.</i></p>
+	  <p>The first query screen is asking the teacher's prefix and last name. These will be used to be displayed on the main page of the program. INSERT IMAGES HERE 
+	  
       <h1>Sigh.... I don't want to type all this documentation</h1>
-      <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
+	  <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
       <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.</p>
       <p>Dapiensociis <a href="#">temper donec auctortortis cumsan</a> et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.</p>
       <img class="imgl borderedbox inspace-5" src="../images/demo/imgl.gif" alt="">
@@ -200,6 +252,10 @@
     </div>
     <!-- / main body -->
     <div class="clear"></div>
+	<div class="wrapper row2">
+	<p><sup>1</sup>By default, when creating an Access Database, the first column is the ID or Index coloumn which auto-increments with every entry.</p>
+	<p><sup>2</sup>Always check the download page for the most up-to-date version of Restroom Logs. If unable to access the Download page, then use the Github Release page.</p>
+	</div>
   </main>
 </div>
 <div class="wrapper row5">

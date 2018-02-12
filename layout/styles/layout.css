@@ -241,7 +241,7 @@ table, th, td{border:1px solid; border-collapse:collapse; vertical-align:top;}
 table, th{table-layout:auto;}
 table{width:100%; margin-bottom:15px;}
 th, td{padding:5px 8px;}
-td{border-width:0 1px;}
+td{border-width:1px 1px 1px 1px;}
 
 
 /* Gallery
@@ -305,7 +305,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#5B9BBD;}
 /* Rows */
 .row0{color:#FFFFFF; background-color:#252C34; border-color:#5B9BBD;}
 .row1{color:#888888; background-color:#F9F9F9; border-color:#D7D7D7;}
-.row2, .row2 a{}
+.row2, .row2 a{font-size:small;}
 .row3{color:#888888; background-color:#FFFFFF;}
 .row4, .row4 a{color:#AAAAAA; background-color:#252C34;}
 .row4 a{color:#FFFFFF;}
