@@ -23,10 +23,10 @@
 	  </div>
    <nav id="mainav" class="fl_right">
       <ul class="clear">
-        <li><a href="../index.html">Home</a></li>
+        <li><a href="https://www.rl.coding2kids.com">Home</a></li>
 		<li><a href="#">Download</a></li>
-		<liclass="active"><a href="index.html">Documentation</a></li>
-        <li><a href="#">Contact</a></li>
+		<liclass="active"><a href="/">Documentation</a></li>
+        <li><a href="https://www.rl.coding2kids.com/contact">Contact</a></li>
         <!--<li><a class="drop" href="#">Pages</a>
           <ul>
             <li><a href="pages/gallery.html">Gallery</a></li>
@@ -73,11 +73,22 @@
             <li class="bold"><a href="#">Getting Started</a></li>
             <ul>
 				<li style=" list-style-position: inside;">
-				<a href="#studentdb">Creating Students' Access Database</a></li>
+				<a href="#studentdb">Creating Student Access Database</a></li>
 				<li style=" list-style-position: inside;">
 				<a href="#download">Downloading Restroom Logs</a></li>
 				<li style=" list-style-position: inside;">
 				<a href="#initialuse">Using Initial Setup</a></li>
+			</ul>
+			<li class="bold"><a href="#">Using The Program</a></li>
+            <ul>
+				<ul style="  list-style-position: inside;">
+				<a href="#">Main Screen</a></ul>
+				<li style=" list-style-position: inside;">
+				<a href="#">ID Field</a></li>
+				<li style=" list-style-position: inside;">
+				<a href="#">Preferences</a></li>
+				<li style=" list-style-position: inside;">
+				<a href="#">System Text Logs</a></li>
 			</ul>
          <!--    <li><a href="#">Academic Calendars</a></li>
             <li><a href="#">Academics Office</a></li>
@@ -160,7 +171,7 @@
 	  <h1 id="getstart"><b>Getting Started</b></h1>
 	  <p>There are multiple steps to take before you begin using Restroom logs. Please read them over carefully to properly set-up and use Restroom Logs.</p>
 	  <h1> </h1>
-	  <h1 id="studentdb">Creating Students' Access Database</h1>
+	  <h1 id="studentdb">Creating Student Access Database</h1>
 	  	 <p>For Restroom Logs to properly work, you <b>must</b> use the proper format. The proper format is shown below for you to copy or you can download a template <a href="../logs/StudentDatabase.accdb" title="Free Website Templates">here.</a>
 		  </p><p><i>Note: Your table name can be anything you want. In our template, it is named "Students".</i></p>
 		<div class="scrollable">
@@ -190,18 +201,26 @@
         </table>
       </div>
 	  <h1> </h1><!--Spacer alt+255-->
-	  <h1 id="download">Downloading Restoom Logs</h1>
+	  <h1 id="download">Downloading Restroom Logs</h1>
 	  <p>There are 2 ways to download the latest version of Restroom Logs.</p>
 	  <li style="margin-left:105px;">Restroom Logs <a href="../download">Download Page</a></li>
 	  <li style="margin-left:105px;">Restroom Logs Github <a href="https://github.com/garytou2/Restroom-Logs/releases">Release Page</a><sup>2</sup></li>
 	  <p>When the Restroom Logs download finished, you will be left with a .zip folder. Please export it wherever you wish to have the program ran.
 	  <h1> </h1>
-	  <h1 id="initialuse">Using Inital Setup</h1>
-	  <p>When opening the Restroom Logs folder, you will be shown a file named <i>"Inital Setup.jar"</i> please run this to begin the Inital Setup Proccess.</p>
+	  <h1 id="initialuse">Using Initial Setup</h1>
+	  <p>When opening the Restroom Logs folder, you will be shown a file named <i>"Initial Setup.jar"</i> please run this to begin the Initial Setup Process.</p>
 	  <p><i>Note: It is <b>very</b> important that you <b> do not</b> open, touch, or modify with any other files in the folder, otherwise the program may not run as it is supposed to.</i></p>
-	  <p>The first query screen is asking the teacher's prefix and last name. These will be used to be displayed on the main page of the program. INSERT IMAGES HERE
+	  <img class="imgl borderedbox inspace-5" src="../images/InitalSetup1.jpg" alt="">
+	  <p>The first query screen is asking the teacher's prefix and last name. These will be used to be displayed on the main page of the program. You must type in a Teacher Name, the setup will not continue without one.</p>
+	  <img class="imgr borderedbox inspace-5" src="../images/InitalSetup2.jpg" alt=""> 
+	  <p>The second query screen is asking the path to your Student Access Database in the format described above and it is asking for the name that you gave the table. <i>Note: Without the correct path or table name the program will not work properly.</i></P>
+      <img class="imgl borderedbox inspace-5" src="../images/InitalSetup3.jpg" alt=""> 
+	  <p>The third query screen is asking for the teacher's email address, used to send PDF logs, whether or not the teacher would like daily log emails, and when the 'Active Hours' end. Active Hours are when the Restroom Logs Program would be most used so in a classroom setting, that would typically be during the day when classes are ongoing. The end of Active Hours would be when classes have concluded and Restroom Logs Program would not be used as much or at all, e.g. 3:00 PM. At the end of Active Hours all of the students would be automatically signed out and the PDF will be sent to the Teacher's email.</p>
+	  <img class="imgr borderedbox inspace-5" src="../images/InitalSetup4.jpg" alt=""> 
+	  <p>Finally, at the end of the Initial Setup, it will download the most up-to-date version of the Restroom Logs Program and install it in the same folder where the rest of the program is. Please make sure that you are connected to the internet the entire time that it is downloading.</p>
 
-      <!--<h1>Sigh.... I don't want to type all this documentation</h1>
+	  
+	  <!--<h1>Sigh.... I don't want to type all this documentation</h1>
 	  <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
       <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.</p>
       <p>Dapiensociis <a href="#">temper donec auctortortis cumsan</a> et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.</p>
