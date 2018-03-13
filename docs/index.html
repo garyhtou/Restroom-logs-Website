@@ -82,13 +82,13 @@
 			<li class="bold"><a href="#">Using The Program</a></li>
             <ul>
 				<li style="  list-style-position: inside;">
-				<a href="#">Main Screen</a></li>
+				<a href="#main">Main Screen</a></li>
 				<li style=" list-style-position: inside;">
-				<a href="#">ID Field</a></li>
+				<a href="#header">Menu Bar and Header</a></li>
 				<li style=" list-style-position: inside;">
-				<a href="#">Preferences</a></li>
+				<a href="#preferences">Preferences</a></li>
 				<li style=" list-style-position: inside;">
-				<a href="#">System Text Logs</a></li>
+				<a href="#txtlogs">System Text Logs</a></li>
 			</ul>
          <!--    <li><a href="#">Academic Calendars</a></li>
             <li><a href="#">Academics Office</a></li>
@@ -215,7 +215,9 @@
 	  <img class="imgr borderedbox inspace-5" src="../images/InitalSetup2.JPG" alt="">
 	  <p>The second query screen is asking the path to your Student Access Database in the format described above and it is asking for the name that you gave the table. <i>Note: Without the correct path or table name the program will not work properly.</i></P>
       <img class="imgl borderedbox inspace-5" src="../images/InitalSetup3.JPG" alt="">
-	  <p>The third query screen is asking for the teacher's email address, used to send PDF logs, whether or not the teacher would like daily log emails, and when the 'Active Hours' end. Active Hours are when the Restroom Logs Program would be most used so in a classroom setting, that would typically be during the day when classes are ongoing. The end of Active Hours would be when classes have concluded and Restroom Logs Program would not be used as much or at all, e.g. 3:00 PM. At the end of Active Hours all of the students would be automatically signed out and the PDF will be sent to the Teacher's email.</p>
+	  <p>The third query screen is asking for the teacher's email address, used to send PDF logs, whether or not the teacher would like daily log emails, and when the 'Active Hours' end. Active Hours are when the Restroom Logs Program would be most used so in a 
+	  classroom setting, that would typically be during the day when classes are ongoing. The end of Active Hours would be when classes have concluded and Restroom Logs Program would not be used as much or at all, e.g. 3:00 PM. At the end of Active Hours all of 
+	  the students would be automatically signed out and the PDF will be sent to the Teacher's email.</p>
 	  <img class="imgr borderedbox inspace-5" src="../images/InitalSetup4.JPG" alt="">
 	  <p>Finally, at the end of the Initial Setup, it will open and run the most up-to-date version of the Restroom Logs Program, labeled 'RestroomLogsProgram.jar' which is in the same folder where the rest of the program is.</p>
 	  <h1> </h1>
@@ -224,8 +226,13 @@
 	  <img class="imgr borderedbox inspace-5" src="../images/MainScreen.png" alt="">
 	  <h1> </h1>
 	  <h1 id="header">Menu Bar and Header</h1>
-	  	 <p></p>
-		  </p><p><i>Note: Your table name can be anything you want. In our template, it is named "Students".</i></p>
+      <p>The Menu Bar and Header consist of the <i>File</i> and <i>Log</i> buttons, as the Menu Bar, and the Logo, Teacher Name and "Welcome to Restroom Log Program", as the header.</p>
+	  <img class="imgl borderedbox inspace-5" src="../images/Header.JPG" alt="">
+	  <p>The Header has no configuration besides of the Teacher Name which is pulled from the System Data where the Teacher Name was typed in <a href="#initialuse">Initial Setup</a> and can be changed in the <a href="#preferences">Preferences Menu.</a></p>
+	  <img class="imgl borderedbox inspace-5" src="../images/MenuBar-File.JPG" alt="">
+	  <img class="imgr borderedbox inspace-5" src="../images/MenuBar-Log.JPG" alt="">
+	  <p>The Menu Bar contains the 2 main buttons, <i>File</i> and <i>Log</i>. File opens up to the <i>Exit</i> Button which closes the program, the <i>Preferences</i> Button which opens the <a href="#preferences">Preferences Menu</a>, and <i>Help</i> which opens this document here. The Log Button only consists of the 
+	  <i>Logs.txt</i> Button that opens the <a href="#logmenu">Log Menu</a>.</p>
 	  <!--<h1>Sigh.... I don't want to type all this documentation</h1>
 	  <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
       <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.</p>
@@ -279,7 +286,7 @@
     <div class="clear"></div>
 	<div class="wrapper row2">
 	<p><sup>1</sup>By default, when creating an Access Database, the first column is the ID or Index coloumn which auto-increments with every entry.</p>
-	<p><sup>2</sup>Always check the download page for the most up-to-date version of Restroom Logs. If unable to access the Download page, then use the Github Release page.</p>
+	<p><sup>2</sup>Always check the download page for the most up-to-date version of Restroom Logs. The GitHub Release page will contain the "Dirty" Source code and a link to download the "Clean" Zip file. If unable to access the Download page, then use the Github Release page.</p>
 	</div>
   </main>
 </div>
